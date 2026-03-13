@@ -15,8 +15,7 @@ from telegram.ext import (
 # CONFIGURATION
 # ==============================
 
-TOKEN = "8635935168:AAHhcrHHDpkoKM0QvZAE5KXz4IfN_gNvRmM"
-DATA_FILE = "lecture_data.json"
+TOKEN = os.environ.get("BOT_TOKEN")
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
