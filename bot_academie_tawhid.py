@@ -1,5 +1,6 @@
  
 import os
+import logging
 from typing import Dict, List
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
